@@ -10,7 +10,7 @@
   <!-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -32,6 +32,7 @@
     <section class="hero" id="home">
       <div class="hero-content">
         <div class="arabic">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+        <p class="bismillah-meaning">"In the name of Allah, the Most Gracious, the Most Merciful."</p>
         <!-- <div class="subtitle">Bride's Family Invites You</div> -->
         <br>
         <br>
@@ -44,7 +45,7 @@
         <p class="hero-date">Sunday, 17 May 2026</p>
         <p class="hero-text">
           With the blessings of Allah, we warmly invite you and your family
-          to the Nikah ceremony of our beloved Sister.
+          to our wedding reception.
         </p>
         <a href="#events" class="btn">View Details</a>
       </div>
@@ -59,7 +60,7 @@
 
         <div class="invitation-card">
           <p style="font-size: 18px; margin-bottom: 14px; color: var(--gold);">
-With immense gratitude to Allah (SWT), we joyfully invite you to the wedding of our Sister          </p>
+With immense gratitude to Allah (SWT), we joyfully invite you to our wedding </p>
           <!-- <p style="max-width: 760px; margin: auto; color: var(--soft-text);">
             It is with great joy and gratitude to Allah that we invite you to the Nikah ceremony
             and wedding reception of our beloved family members. Your blessings, duas, and presence
@@ -94,9 +95,9 @@ With immense gratitude to Allah (SWT), we joyfully invite you to the wedding of 
 
     <section class="events" id="events">
       <div class="container">
-        <h2 class="section-title">Wedding Ceremony</h2>
+        <h2 class="section-title">Wedding Reception</h2>
         <p class="section-subtitle">
-          Please join us for the Wedding ceremony and celebration.
+          Please join us for theWedding Reception and celebration.
         </p>
 
         <div class="event-grid">
@@ -106,11 +107,11 @@ With immense gratitude to Allah (SWT), we joyfully invite you to the wedding of 
           </div>
           <div class="event-card">
             <h3>Time</h3>
-            <p>11:00 AM</p>
+            <p>6:00 PM onwards</p>
           </div>
           <div class="event-card">
-            <h3>Venue</h3>
-            <p>Hajmus Covention Centre, Thaliparamba, Kannur</p>
+            <h3>Location</h3>
+            <p>Lavas Bhavan, Mattanur</p>
           </div>
           <div class="event-card">
             <h3>Map</h3>
@@ -133,7 +134,7 @@ With immense gratitude to Allah (SWT), we joyfully invite you to the wedding of 
       <div class="container">
         <h2 class="section-title">Gallery</h2>
         <p class="section-subtitle">
-          A few cherished moments to celebrate this beautiful journey.
+          few cherished moments captured with love and gratitude.
         </p>
 
         <div class="gallery-grid">
@@ -192,7 +193,7 @@ With immense gratitude to Allah (SWT), we joyfully invite you to the wedding of 
     });
 
     // Countdown
-    const weddingDate = new Date("May 17, 2026 10:00:00").getTime();
+    const weddingDate = new Date("May 17, 2026 18:00:00").getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -201,7 +202,7 @@ With immense gratitude to Allah (SWT), we joyfully invite you to the wedding of 
       if (distance < 0) {
         clearInterval(timer);
         document.getElementById("countdown").innerHTML =
-          "<div style='grid-column:1/-1; text-align:center; font-size:24px; color:#2b2b2b; font-weight:600;'>The wedding day has arrived 💍</div>";
+          "<div style='grid-column:1/-1; text-align:center; font-size:24px; color:#2b2b2b; font-weight:600;'>The reception has begun ✨</div>";
         return;
       }
 
