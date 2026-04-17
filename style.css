@@ -233,6 +233,15 @@ h1, h2, h3 {
   color: var(--muted);
 }
 
+.bismillah-meaning {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-style: italic;
+  color: #9f7a55;
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
+
 /* .couple-names {
   display: flex;
   align-items: center;
@@ -260,6 +269,92 @@ h1, h2, h3 {
   line-height: 1;
   transform: translateY(-4px);
 } */
+
+/* .couple-names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: nowrap;
+  font-family: 'Allura', cursive;
+  font-size: 92px;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+}
+
+.couple-names .name {
+  color: var(--gold);
+  display: inline-block;
+}
+
+.couple-names .ampersand {
+  color: #111;
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 1;
+  transform: translateY(-2px);
+} */
+/* .couple-names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: nowrap;
+  font-family: 'Great Vibes', cursive;
+  font-size: 88px;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+}
+
+.couple-names .name {
+  color: var(--gold);
+  display: inline-block;
+}
+
+.couple-names .ampersand {
+  color: #111;
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 58px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1;
+  transform: translateY(-2px);
+} */
+
+/* .couple-names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: nowrap;
+  font-family: 'Alex Brush', cursive;
+  font-size: 86px;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+}
+
+.couple-names .name {
+  color: var(--gold);
+  display: inline-block;
+}
+
+.couple-names .ampersand {
+  color: #111;
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 56px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1;
+  transform: translateY(-2px);
+} */
+
 .couple-names {
   display: flex;
   align-items: center;
@@ -545,7 +640,6 @@ section {
     margin: 2px 0;
     transform: none;
   } */
-
 @media (max-width: 768px) {
   .couple-names {
     flex-direction: column;
@@ -561,7 +655,6 @@ section {
     transform: none;
   }
 }
-
   .arabic {
     font-size: 24px;
     margin-bottom: 18px;
